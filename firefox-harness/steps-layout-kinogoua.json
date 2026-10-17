@@ -1,0 +1,3 @@
+[{ "wait": 8000 }, { "click": "li[data-tab=\"2\"]" }, { "wait": 12000 }, { "play": true }, { "wait": 5000 }, { "seekCue": 100 }, { "wait": 1500 },
+ { "probe": "split" },
+ { "key": "Alt+KeyL" }, { "wait": 600 }, { "probe": "stacked-from-top" }, { "shot": "stacked" }]

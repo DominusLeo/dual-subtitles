@@ -1,0 +1,11 @@
+[{ "wait": 12000 }, { "play": true }, { "wait": 4000 }, { "seekCue": 100 }, { "wait": 1500 },
+ { "probe": "split" }, { "shot": "split" },
+ { "key": "Alt+KeyL" }, { "wait": 400 }, { "probe": "stacked" }, { "shot": "stacked" },
+ { "key": "Alt+Equal" }, { "key": "Alt+ArrowUp" }, { "key": "Alt+ArrowUp" }, { "wait": 400 }, { "probe": "bigger-up2" }, { "shot": "bigger-up2" },
+ { "seekCue": 160 }, { "wait": 5000 }, { "key": "Alt+Minus" }, { "wait": 400 }, { "probe": "cue160" }, { "shot": "cue160" },
+ { "eval": "(() => { const v = document.querySelector('video'); if (!v) return null; const t = [...v.textTracks].find(x => x.mode === 'hidden' && /eng/i.test(x.label)); if (!t) return 'no eng track'; t.addCue(new VTTCue(v.currentTime - 0.1, v.currentTime + 120, 'A deliberately long English subtitle line, added by the harness, that is wider than the video at this size.')); return t.label; })()" },
+ { "key": "Alt+Digit0" }, { "key": "Alt+KeyL" }, { "wait": 400 }, { "probe": "long-100" }, { "shot": "long-100" },
+ { "key": "Alt+Equal" }, { "key": "Alt+Equal" }, { "key": "Alt+Equal" }, { "key": "Alt+Equal" }, { "key": "Alt+Equal" },
+ { "key": "Alt+Equal" }, { "key": "Alt+Equal" }, { "key": "Alt+Equal" }, { "key": "Alt+Equal" }, { "key": "Alt+Equal" },
+ { "wait": 400 }, { "probe": "long-250" }, { "shot": "long-250" },
+ { "key": "Alt+Digit0" }, { "wait": 400 }, { "probe": "reset" }]

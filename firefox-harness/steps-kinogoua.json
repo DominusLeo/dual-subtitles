@@ -1,0 +1,1 @@
+[{ "wait": 8000 }, { "probe": "loaded" }, { "click": "li[data-tab=\"2\"]" }, { "wait": 12000 }, { "probe": "player2" }, { "play": true }, { "wait": 5000 }, { "seekCue": 100 }, { "wait": 1500 }, { "shot": "cue100" }]

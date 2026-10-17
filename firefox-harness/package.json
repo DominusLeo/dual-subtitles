@@ -1,0 +1,9 @@
+{
+  "name": "firefox-harness",
+  "private": true,
+  "type": "module",
+  "description": "Drives stock Firefox via WebDriver BiDi to test dual-subtitles.user.js",
+  "dependencies": {
+    "puppeteer-core": "25.12.0"
+  }
+}

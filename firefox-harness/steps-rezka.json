@@ -1,0 +1,1 @@
+[{ "wait": 15000 }, { "play": true }, { "wait": 3000 }, { "probe": "ad" }, { "wait": 42000 }, { "probe": "after-ad" }, { "play": true }, { "wait": 15000 }, { "seekCue": 100 }, { "wait": 1500 }, { "shot": "cue100" }]

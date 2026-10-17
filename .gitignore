@@ -1,0 +1,9 @@
+# Залежності стенду — відновлюються `npm ci` з package-lock.json
+node_modules/
+# Результати прогонів стенду (скріншоти, report.json, логи)
+firefox-harness/out/
+# Розширення з addons.mozilla.org — завантажуються окремо (див. README, розділ «Тестовий стенд»)
+*.xpi
+# Локальні: робочий журнал і конфіг середовища розробки
+STATE.md
+.claude/
